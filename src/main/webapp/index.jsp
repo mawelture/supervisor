@@ -14,10 +14,11 @@
     <link href="/supervisor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <script src="/supervisor/bootstrap/js/jquery-3.3.1.min.js"></script>
     <script src="/supervisor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/supervisor/assets/js/loader.js" ></script>
 </head>
 <body>
 <table class="table table-hover">
-    <caption>当前IP地址</caption>
+    <caption>当前IP地址: </caption>
     <thead>
     <tr>
         <th>名称</th>

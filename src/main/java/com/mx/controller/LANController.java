@@ -1,16 +1,18 @@
 package com.mx.controller;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.Inet4Address;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
+@Controller
+@RequestMapping("/lan")
 public class LANController {
 
-
+    @RequestMapping("/host")
+    @ResponseBody
     public String getLocalHost() {
         String address = "0.0.0.0";
         try {
